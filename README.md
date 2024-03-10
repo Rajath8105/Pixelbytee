@@ -1,59 +1,118 @@
-Getting Started with Create React App
-This project was bootstrapped with Create React App.
+## Table of contents
 
-Available Scripts
-In the project directory, you can run:
+- [Overview](#overview)
+- [Project Description](#Project-Description)
+- [Installation](#Installation)
+- [Running](#Running)
+- [The challenge](#the-challenge)
+- [Screenshots](#screenshots)
+- [Links](#links)
+- [Our process](#my-process)
+  - [Built with](#built-with)
+ - [Credits](#Credits)
+ 
+## Overview
+ShareMe is a Social Media Platforms aimed towards sharing experiences through photographs.
+ShareMe provides the user with complete control of their posts such as creation, editing, deletion as well as saving favourite pins for later reference.
+Powered By Google Authentication, Shareme Provides streamlined account activities and top of the line security.
 
-npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser.
+## Project Description
+The app consists of various categories into which a post can be classified under.The categories are Cars,Fitness,Wallpaper,Websites,Photo,food,Nature,Art,Travel,Quotes,Cats and Dogs.
+A user needs to specify which category the post falls under while creating it.
+Saved posts appear under the user's profile along with posted pins.
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+## Installation
+- npm install
+- npm install -g @sanity/cli
+- npm install tailwindcss postcss-cli autoprefixer
 
-npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
 
-npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Running
+- npm start
+- sanity start
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
 
-See the section about deployment for more information.
+### The challenge
 
-npm run eject
-Note: this is a one-way operation. Once you eject, you can't go back!
+Users should be able to:
 
-If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
+- View the optimal layout depending on their device's screen size.
+- Able to upload dashboards with ease.
+- Collab and interact with others using the apps interactive and wholesome features.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Screenshots
 
-You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Learn More
-You can learn more in the Create React App documentation.
+#### Login Page
 
-To learn React, check out the React documentation.
+![Screenshot (747)](https://user-images.githubusercontent.com/61611882/162573106-057d65ca-c62e-44c8-a8e7-c3ca4dc97d82.png)
 
-Code Splitting
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+#### Landing Page
 
-Analyzing the Bundle Size
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+![Screenshot (748)](https://user-images.githubusercontent.com/61611882/162573287-7de9d454-65bb-41b8-91cb-b948fd28d340.png)
 
-Making a Progressive Web App
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+#### Home Page
 
-Advanced Configuration
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+![Screenshot (749)](https://user-images.githubusercontent.com/61611882/162573300-6d4d48cf-bfc7-434d-b11d-27ab998a6fbb.png)
 
-Deployment
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+#### Category Specific Pages
 
-npm run build fails to minify
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-Outline
+![Screenshot (750)](https://user-images.githubusercontent.com/61611882/162573360-8b10d17f-a7fe-4406-aaf7-2bf3275dfb03.png)
+
+
+![Screenshot (751)](https://user-images.githubusercontent.com/61611882/162573366-e9e5ab17-628b-4256-98fe-6c12d926b492.png)
+
+![Screenshot (752)](https://user-images.githubusercontent.com/61611882/162573378-4cf7e495-02ad-4a5a-9166-5cc385451f63.png)
+
+
+![Screenshot (753)](https://user-images.githubusercontent.com/61611882/162573390-d9947c9c-7b83-4a10-ae7f-13ac23c91b4b.png)
+
+
+#### User Profile
+
+![Screenshot (755)](https://user-images.githubusercontent.com/61611882/162573437-b65cdb4f-b298-458b-acfd-c742882d91fd.png)
+
+
+![Screenshot (756)](https://user-images.githubusercontent.com/61611882/162573444-a924fbdb-bafd-4902-a79c-d3661665dc41.png)
+
+#### Adding Post
+
+![Screenshot (240)](https://user-images.githubusercontent.com/52795682/162575030-87cba366-e94d-4931-94a5-098e99bf7d6d.png)
+
+
+#### Comment Section
+
+![Screenshot (238)](https://user-images.githubusercontent.com/52795682/162574919-0bf83e08-6620-4491-bfa1-43f5fb61e0aa.png)
+
+
+
+### Links
+
+- Solution URL: https://pixelbyte/login.netlify.app/
+
+
+## Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Tailwind CSS
+- [React](https://reactjs.org/) - JS library
+- [Sanity](https://www.sanity.io) - Content Management System (CMS)
+
+
+### Continued development
+- Include various features like collaboration and data insights of the uploaded content.
+- Image preprocessing and recognition of characters which can further be converted into pins thus avoiding manual creation of pins by the user.
+- Avoid lag of uploading images of larger pixels.
+
+### Useful resources
+
+
+- Sanity JSM Subscribers Special - https://www.sanity.io/javascriptmastery 
+
+## Credits
+- Rajath Katti
+- Rahul Doddamani
