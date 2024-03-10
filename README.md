@@ -89,7 +89,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://pixelbyte/login.netlify.app/
+- Solution URL: https://pixelbyte.netlify.app/login
 
 
 ## Built with
